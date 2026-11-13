@@ -122,12 +122,13 @@ The project was developed using Python in a Kaggle Notebook environment.
 - Python
 
 ### Python Libraries
-- **NumPy:** Numerical computations and array manipulation.
-- **Pandas:** Data handling and organisation.
-- **Matplotlib:** Visualisation of hyperspectral images, spectra and plots.
-- **Scikit-learn:** PCA, t-SNE, K-means clustering and data analysis.
-- **Xarray:** Working with multidimensional scientific datasets.
-- **NetCDF4:** Reading and accessing NetCDF data.
+- **NumPy:** Numerical computations and multidimensional array manipulation.
+- **Matplotlib:** Plotting and visualisation of spectral data and analysis results.
+- **Xarray:** Loading and handling multidimensional hyperspectral datasets.
+- **Plotly:** Creating interactive visualisations, scatter plots and spectral plots.
+- **ipywidgets:** Interactive controls and widgets within the notebook.
+- **anywidget:** Supporting interactive widget functionality.
+- **Scikit-learn:** Applying machine learning and dimensionality reduction techniques.
 
 ### Development Environment
 - Kaggle Notebooks
