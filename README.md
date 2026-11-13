@@ -134,3 +134,27 @@ The project was developed using Python in a Kaggle Notebook environment.
 - Kaggle Notebooks
 - Jupyter Notebook
 
+
+## Results and Visualizations
+
+This section presents the major outputs obtained from the exploratory analysis of the EMIT hyperspectral dataset.
+
+### 1. True-Colour Image
+
+The true-colour composite provides a visual representation of the selected EMIT study area using visible spectral bands.
+
+### 2. Principal Component Analysis (PCA)
+
+PCA was used to transform the original hyperspectral data into principal components. The explained variance and spatial distribution of selected components were examined.
+
+### 3. t-SNE Visualisation
+
+The t-SNE embedding represents the selected PCA features in a two-dimensional space, allowing the distribution and similarities of pixels to be explored.
+
+### 4. K-means Clustering
+
+K-means clustering (K = 6) was performed on the two-dimensional t-SNE representation. The cluster labels were mapped back to their spatial positions to generate a cluster map.
+
+### 5. Mean Reflectance Spectra
+
+Mean reflectance spectra were calculated for each of the six clusters using the original reflectance data. These spectra were compared to examine differences in their spectral characteristics.
