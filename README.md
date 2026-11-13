@@ -172,3 +172,28 @@ The original true-colour image is shown alongside the K-means cluster map for co
 Mean reflectance spectra were calculated for each of the five clusters using the original reflectance data. These spectra were compared to examine differences in their spectral characteristics.
 
 ![Mean Reflectance Spectra](figures/05_mean_spectra.png)
+
+
+## How to Run the Notebook
+
+The analysis was performed using a Kaggle Notebook environment.
+
+Follow these steps to run the project:
+
+1. Open the Kaggle Notebook containing this project.
+2. Click **Add Input** in the notebook editor.
+3. Search for the dataset `EMIT_60233`.
+4. Add the dataset to the notebook.
+5. Run the notebook cells sequentially to reproduce the hyperspectral data analysis.
+
+### Required Setup
+
+Install the required interactive widget support:
+
+```python
+!pip install -q anywidget
+```
+
+Import the required Python libraries as described in the Technologies and Libraries section.
+
+**Note:** The notebook is designed to run in the Kaggle environment.
