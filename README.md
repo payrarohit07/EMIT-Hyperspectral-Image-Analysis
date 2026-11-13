@@ -103,7 +103,7 @@ This representation helps visualise similarities among pixels in the reduced fea
 
 ### 5. K-means Clustering
 
-K-means clustering was performed on the two-dimensional t-SNE representation to group pixels into six clusters (K = 6).
+K-means clustering was performed on the two-dimensional t-SNE representation to group pixels into six clusters (K = 5).
 
 The resulting cluster labels were mapped back to their corresponding spatial positions to generate a spatial cluster map.
 
@@ -143,18 +143,32 @@ This section presents the major outputs obtained from the exploratory analysis o
 
 The true-colour composite provides a visual representation of the selected EMIT study area using visible spectral bands.
 
+![True Colour Image](figures/01_true_colour.png)
+
 ### 2. Principal Component Analysis (PCA)
 
 PCA was used to transform the original hyperspectral data into principal components. The explained variance and spatial distribution of selected components were examined.
+
+The first four principal components (PC1, PC2, PC3 and PC4) are visualised below.
+
+![PCA Components](figures/02_pca_components.png)
 
 ### 3. t-SNE Visualisation
 
 The t-SNE embedding represents the selected PCA features in a two-dimensional space, allowing the distribution and similarities of pixels to be explored.
 
-### 4. K-means Clustering
+![t-SNE Clusters](figures/03_tsne_clusters.png)
 
-K-means clustering (K = 6) was performed on the two-dimensional t-SNE representation. The cluster labels were mapped back to their spatial positions to generate a cluster map.
+### 4. K-means Clustering (K = 5)
+
+K-means clustering (K = 5) was performed on the two-dimensional t-SNE representation. The resulting cluster labels were mapped back to their spatial positions to generate a spatial cluster map.
+
+The original true-colour image is shown alongside the K-means cluster map for comparison.
+
+![K-means Cluster Map](figures/04_kmeans_map.png)
 
 ### 5. Mean Reflectance Spectra
 
-Mean reflectance spectra were calculated for each of the six clusters using the original reflectance data. These spectra were compared to examine differences in their spectral characteristics.
+Mean reflectance spectra were calculated for each of the five clusters using the original reflectance data. These spectra were compared to examine differences in their spectral characteristics.
+
+![Mean Reflectance Spectra](figures/05_mean_spectra.png)
