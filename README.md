@@ -186,6 +186,8 @@ Follow these steps to run the project:
 4. Add the dataset to the notebook.
 5. Run the notebook cells sequentially to reproduce the hyperspectral data analysis.
 
+**Jupyter Notebook:** [View the complete analysis](hyperspectral-image-classification.ipynb)
+
 ### Required Setup
 
 Install the required interactive widget support:
