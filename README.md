@@ -112,3 +112,24 @@ The resulting cluster labels were mapped back to their corresponding spatial pos
 The mean reflectance spectrum of each cluster was calculated using the original hyperspectral reflectance data.
 
 The resulting mean spectra were compared to examine spectral differences among the six clusters.
+
+
+## Technologies and Libraries
+
+The project was developed using Python in a Kaggle Notebook environment.
+
+### Programming Language
+- Python
+
+### Python Libraries
+- **NumPy:** Numerical computations and array manipulation.
+- **Pandas:** Data handling and organisation.
+- **Matplotlib:** Visualisation of hyperspectral images, spectra and plots.
+- **Scikit-learn:** PCA, t-SNE, K-means clustering and data analysis.
+- **Xarray:** Working with multidimensional scientific datasets.
+- **NetCDF4:** Reading and accessing NetCDF data.
+
+### Development Environment
+- Kaggle Notebooks
+- Jupyter Notebook
+
